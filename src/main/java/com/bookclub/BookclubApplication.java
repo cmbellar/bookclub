@@ -4,6 +4,7 @@
 */
 package com.bookclub;
 
+/** imports */
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -15,6 +16,6 @@ public class BookclubApplication {
      */
     public static void main(String[] args) {
         SpringApplication.run(BookclubApplication.class, args);
-    }
+    } // end main
 
-}
+} // end BookclubApplication
