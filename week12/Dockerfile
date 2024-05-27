@@ -8,4 +8,4 @@ RUN mvn clean package -DskipTests
 FROM openjdk:17
 COPY --from=build /target/*.jar bookclub.jar
 EXPOSE 8080
-ENTRYPOINT ["java","bookclub.jar"]
+ENTRYPOINT ["java","-jar","bookclub.jar"]
